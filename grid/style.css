@@ -1,0 +1,18 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    gap: 10px 70px;
+    border: 1px solid black;
+    transition: .3s;
+}
+.item {
+    background-color: blueviolet;
+    border: 1px solid blue;
+    text-align: center;
+    padding: 10px;
+}
+/* .container:hover {
+    grid-template-columns: 1fr 2fr 1fr;
+    transition: .3s ease;
+} */
