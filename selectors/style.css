@@ -1,0 +1,35 @@
+h1 {
+    color: aqua;
+}
+p {
+    font-weight: 700;
+}
+li {
+    background-color: darkblue;
+    color: white;
+    padding-left: 20px;
+}
+.red {
+    color: red;
+}
+.orange {
+    color: orange;
+}
+.yellow {
+    color: yellow;
+}
+.green {
+    color: green;
+}
+.blue {
+    color: blue;
+}
+.indigo {
+    color: indigo;
+}
+.violet {
+    color: violet;
+}
+#f2 {
+    color: brown;
+}
