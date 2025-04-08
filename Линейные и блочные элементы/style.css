@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    font-size: 40px;
+}
+body {
+    background-color: white;
+}
+.img {
+    width: 50%;
+}
+.container {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    color: white;
+}
+
+
+
+.img__inline {
+    display: block;
+}
+.p_inline {
+    display: inline;
+}
+
+
+
+.box {
+    display: block;
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+}
+.box__img {
+    display: inline;
+    align-items: center;
+    width: 50%;
+}
+.box__a {
+    display: block;
+    color: rgb(122, 20, 20);
+    text-decoration:none ;
+}
+
+
+
