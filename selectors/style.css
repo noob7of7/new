@@ -30,7 +30,7 @@ li {
 .violet {
     color: violet;
 }
-#f2 {
+#h2-color-brown {
     color: brown;
 }
 
@@ -38,9 +38,9 @@ li {
 p {
     font-size: 20px;
 }
-.p {
+.paragraph {
     font-size: 30px;
 }
-#p {
+#paragraph-id {
     font-size: 40px;
 }
