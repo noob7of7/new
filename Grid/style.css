@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    font-family: Montserrat;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content {
+    display: grid;
+    gap: 20px;
+    height: 1786px;
+    width: 1180px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.cart {
+    position: relative;
+    display: inline-block;
+    width: 380px;
+    height: 582px;
+    box-shadow: 10px 10px 50px gainsboro;
+    /* border: 1px solid gray; */
+}
+
+.berry {
+    position: absolute;
+    width: 169.9999985811539;
+    height: 173.99999854776928;
+    top: 260px;
+    left: -130px;
+    z-index: 4;
+}
+
+.leaf_1 {
+    position: absolute;
+    right: -220px;
+    top: 1050px;
+    z-index: 4;
+}
+
+.leaf_2 {
+    position: absolute;
+    left: -220px;
+    top: 1350px;
+    z-index: 4;
+}
+
+img {
+    width: 380px;
+    height: 245px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -1px;
+    text-align: center;
+    vertical-align: bottom;
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 143%;
+    letter-spacing: 0%;
+    margin: 0;
+    color: #2E363E;
+    margin-left: 50px;
+    margin-top: 55px;
+}
+
+p {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    width: 240px;
+    height: 48px;
+    color: #2E363E;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 152%;
+    letter-spacing: 0%;
+    position: relative;
+    color: #2E363E;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+a {
+    width: 163px;
+    height: 68px;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    border-radius: 8px;
+    background-color: #FED84C;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 152%;
+    letter-spacing: 0%;
+    text-decoration: none;
+    color: #2E363E;
+    margin-left: 50px;
+    transition: .3s ease;
+}
+
+a:hover {
+    background-color: #ffc800;
+    transition: .3s ease;
+    color: #434a52;
+}

@@ -1,0 +1,37 @@
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: skyblue;
+    box-shadow: 0 30px 10px 10px rgb(163, 163, 163);
+}
+h1 {
+    text-shadow: 4px 5px 10px gray;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    text-shadow: 6px 12px 7px green;
+}
+.box-gradient {
+    width: 500px;
+    height: 200px;
+    background: linear-gradient(45deg, orange , red, yellow);
+    margin-bottom:30px ;
+}
+.box-gradient-1 {
+    width: 500px;
+    height: 200px;
+    background: linear-gradient(75deg, rgb(172, 28, 88) , rgb(65, 104, 2), yellow);
+    margin-bottom:30px ;
+}
+.box-gradient-2 {
+    width: 500px;
+    height: 200px;
+    background: linear-gradient(25deg, rgb(43, 145, 114) , rgb(63, 196, 37), yellow);
+}
+.radial {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background: radial-gradient(circle , red , rgb(116, 42, 134), violet);
+}
